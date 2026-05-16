@@ -9,9 +9,9 @@
 ## 🎯 Why Hire Me? (My Core Value Proposition)
 
 I bridge the gap between complex mathematical theories and scalable business solutions. My approach to data science is built on three pillars:
-- **Statistical Rigor & First Principles:** Grounded in the deep methodologies of foundational literature, ensuring I understand *how* algorithms work, not just *how to call them*.
-- **High Performance & Production Readiness:** Utilizing **Rust** for ultra-fast processing, and packaging solutions within **Docker** on **Linux** environments to ensure seamless, scalable deployment.
-- **Responsible & Transparent AI:** Deeply committed to **AI Ethics** and **Explainable AI (XAI)**. I build transparent models that stakeholders can trust, ensuring compliance and unbiased decision-making.
+- **Statistical Rigor & First Principles:** Grounded in the deep methodologies of foundational literature (O'Reilly's core Data Science stack), ensuring I understand *how* algorithms work, not just *how to call them*.
+- **Scalability & Production Readiness:** Capable of moving models from local environments to distributed cloud architectures using **Databricks**, and packaging solutions within **Docker** on **Linux** to ensure seamless enterprise deployment.
+- **Responsible & Transparent AI:** Deeply committed to **AI Ethics** and **Explainable AI (XAI)**. I build transparent models that stakeholders can trust, ensuring compliance, fairness, and unbiased decision-making.
 
 <br/>
 
@@ -22,15 +22,19 @@ I bridge the gap between complex mathematical theories and scalable business sol
 - **Data Wrangling:** Advanced manipulation, cleaning, and transformation using **`Pandas`** and **`NumPy`**.
 - **Exploratory Data Analysis (EDA):** Crafting compelling statistical narratives and visualizations with **`Matplotlib`** and **`Seaborn`**.
 
-### 🤖 Machine Learning & Artificial Intelligence
-- **Algorithmic Development:** Building predictive models, clustering, and regressions using **`Scikit-Learn`**.
-- **Explainable AI (XAI):** Utilizing techniques to interpret complex models.
-- **AI Ethics:** Designing systems with fairness, accountability, and privacy constraints in mind.
+### ☁️ Big Data & Cloud Machine Learning
+- **Distributed Computing:** Handling large-scale enterprise datasets and complex ML pipelines using **`Databricks`** and **`PySpark`**.
+- **Cloud ML Deployment:** Scaling machine learning models to leverage cloud computing resources efficiently.
+- **Explainable AI (XAI) & Ethics:** Designing transparent systems with fairness, accountability, and privacy constraints in mind.
+
+### 🤖 Algorithmic Development & AI
+- **Model Engineering:** Building predictive models, clustering, and regressions using **`Scikit-Learn`**.
+- **First Principles:** Constructing robust ML architectures from scratch to understand internal structural mechanics.
 
 ### ⚙️ MLOps, Engineering & Deployment
 - **Containerization & OS:** Deploying isolated environments using **`Docker`** on **`Linux/Ubuntu`**.
-- **Version Control & CI/CD:** Managing robust codebases using **`Git`** and GitHub.
-- **Languages & Automation:** **`Python`** (primary), **`Rust`** (performance modules), **`SQL`** (database querying), and **`Bash`** (system-level automation).
+- **Version Control:** Managing robust codebases using **`Git`** and GitHub.
+- **Languages:** **`Python`** (primary), **`Rust`** (performance-critical modules), **`SQL`** (database querying), and **`Bash`**.
 
 <br/>
 
@@ -40,11 +44,13 @@ I bridge the gap between complex mathematical theories and scalable business sol
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
   <br/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=Databricks&logoColor=white" alt="Databricks"/>
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="Apache Spark"/>
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
   <img src="https://img.shields.io/badge/Ethical_AI-005571?style=for-the-badge&logo=openai&logoColor=white" alt="Ethical AI"/>
   <br/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
@@ -55,10 +61,10 @@ I bridge the gap between complex mathematical theories and scalable business sol
 ## 📚 Foundational Literature & Core Methodologies
 My technical approach and code architecture are deeply rooted in the practical methodologies outlined in these foundational texts:
 
-- 📖 **Practical Statistics for Data Scientists (O'Reilly):** Solidified my quantitative mindset, prioritizing hypothesis testing, data distributions, and statistical rigor over mere code execution.
-- 📖 **Data Science from Scratch (O'Reilly):** Taught me how to build core machine learning algorithms and math fundamentals from the ground up to truly understand their internal structural logic.
-- 📖 **Python for Data Analysis (O'Reilly):** Mastered advanced data wrangling, cleaning, and vectorization techniques using Pandas and NumPy directly from the library's creator.
-- 📖 **Python Data Science Handbook (O'Reilly):** Deepened my expertise in utilizing the core Python data stack for robust exploratory visualizations and algorithmic deployment.
+- 📖 **Practical Statistics for Data Scientists (O'Reilly):** Solidified my quantitative mindset, prioritizing hypothesis testing and statistical rigor.
+- 📖 **Data Science from Scratch (O'Reilly):** Taught me how to build core machine learning algorithms and math fundamentals from the ground up.
+- 📖 **Python for Data Analysis (O'Reilly):** Mastered advanced data wrangling and vectorization techniques directly from the library's creator.
+- 📖 **Python Data Science Handbook (O'Reilly):** Deepened my expertise in utilizing the core Python data stack for robust deployments.
 
 <br/>
 
@@ -69,18 +75,18 @@ My technical approach and code architecture are deeply rooted in the practical m
 - **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases.
 - **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA.
 - **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines.
-- **Tech Stack:** `Python`, `Pandas`, `NumPy`, `SciPy`, `Matplotlib`, `Statistical Modeling`
+- **Tech Stack:** `Python`, `Pandas`, `NumPy`, `SciPy`, `Statistical Modeling`
 
 [👉 View Repository](Link_to_Project_1)
 
 ---
 
-### 📌 Project 2: High-Performance Data Processing Engine in Rust
-- **Core Focus:** Memory Safety & Compute Optimization.
-- **The Problem:** A Python data pipeline suffered severe bottlenecks when processing massive datasets.
-- **My Solution:** Developed a scalable data-wrangling compute loop in **Rust**, linking it to Python wrappers.
-- **Business Value:** Reduced CPU and memory utilization significantly, accelerating data preparation speeds.
-- **Tech Stack:** `Rust`, `Python`, `Systems Programming`, `Data Optimization`, `Concurrency`
+### 📌 Project 2: Cloud-Scaled Machine Learning on Databricks
+- **Core Focus:** Big Data, Distributed Computing, & Cloud ML.
+- **The Problem:** A local predictive model could not handle the processing requirements of a rapidly growing 50GB+ dataset.
+- **My Solution:** Migrated the data pipeline to **Databricks**, utilizing `PySpark` for distributed data wrangling and scaling the machine learning training process across a cloud cluster.
+- **Business Value:** Reduced model training time from hours to minutes, enabling the business to update predictions dynamically on massive datasets.
+- **Tech Stack:** `Databricks`, `PySpark`, `Cloud Computing`, `Machine Learning`
 
 [👉 View Repository](Link_to_Project_2)
 
@@ -97,12 +103,12 @@ My technical approach and code architecture are deeply rooted in the practical m
 
 ---
 
-### 📌 Project 4: Production-Grade ML Algorithms from Scratch
-- **Core Focus:** Algorithmic Engineering & First Principles.
-- **The Problem:** Relying blindly on standard third-party libraries can lead to fragile deployments.
-- **My Solution:** Built linear algebra operations and ML classifiers completely from first principles using pure Python.
-- **Business Value:** Demonstrated deep technical mastery for non-standard production environments.
-- **Tech Stack:** `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`
+### 📌 Project 4: High-Performance Data Engine & ML from Scratch
+- **Core Focus:** Memory Safety, Algorithmic Engineering & First Principles.
+- **The Problem:** Relying blindly on standard third-party libraries led to bottlenecks in a non-standard production environment.
+- **My Solution:** Built core ML classifiers completely from first principles using pure Python, and optimized the heaviest data-loop utilizing **Rust** for maximum memory safety and speed.
+- **Business Value:** Demonstrated deep technical mastery, creating bespoke, ultra-fast algorithms tailored specifically to constrained environments.
+- **Tech Stack:** `Rust`, `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`
 
 [👉 View Repository](Link_to_Project_4)
 
@@ -113,7 +119,7 @@ My technical approach and code architecture are deeply rooted in the practical m
 - **The Problem:** Scattered multi-table relational data needed automated structuring within an OS-independent environment.
 - **My Solution:** Structured advanced `SQL` workflows, built automated ETL pipelines, and containerized the architecture using **Docker** on **Ubuntu/Linux**.
 - **Business Value:** Established a centralized, scalable, and fully automated pipeline deployable anywhere.
-- **Tech Stack:** `SQL`, `Docker`, `Ubuntu/Linux`, `Bash`, `Python`, `Git`, `ETL Pipelines`
+- **Tech Stack:** `SQL`, `Docker`, `Ubuntu/Linux`, `Bash`, `Git`, `ETL Pipelines`
 
 [👉 View Repository](Link_to_Project_5)
 
