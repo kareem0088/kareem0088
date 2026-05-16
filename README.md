@@ -9,9 +9,9 @@
 ## 🎯 Why Hire Me? (My Core Value Proposition)
 
 I bridge the gap between complex mathematical theories and scalable business solutions. My approach to data science is built on three pillars:
-- **Statistical Rigor & First Principles:** Grounded in the deep methodologies of foundational literature (O'Reilly's core Data Science stack), ensuring I understand *how* algorithms work, not just *how to call them*.
-- **High Performance & Production Readiness:** Utilizing **Rust** for ultra-fast processing, and packaging solutions within **Docker** on **Linux** environments to ensure seamless, scalable deployment from local machines to enterprise servers.
-- **Responsible & Transparent AI:** Deeply committed to **AI Ethics** and **Explainable AI (XAI)**. I build transparent models that stakeholders can trust, ensuring compliance, fairness, and unbiased decision-making.
+- **Statistical Rigor & First Principles:** Grounded in the deep methodologies of foundational literature, ensuring I understand *how* algorithms work, not just *how to call them*.
+- **High Performance & Production Readiness:** Utilizing **Rust** for ultra-fast processing, and packaging solutions within **Docker** on **Linux** environments to ensure seamless, scalable deployment.
+- **Responsible & Transparent AI:** Deeply committed to **AI Ethics** and **Explainable AI (XAI)**. I build transparent models that stakeholders can trust, ensuring compliance and unbiased decision-making.
 
 <br/>
 
@@ -24,12 +24,12 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 ### 🤖 Machine Learning & Artificial Intelligence
 - **Algorithmic Development:** Building predictive models, clustering, and regressions using **`Scikit-Learn`**.
-- **Explainable AI (XAI):** Utilizing techniques to interpret complex models (turning black boxes into transparent business logic).
+- **Explainable AI (XAI):** Utilizing techniques to interpret complex models.
 - **AI Ethics:** Designing systems with fairness, accountability, and privacy constraints in mind.
 
 ### ⚙️ MLOps, Engineering & Deployment
-- **Containerization & OS:** Deploying isolated, scalable environments using **`Docker`** on **`Linux/Ubuntu`** servers.
-- **Version Control & CI/CD:** Managing robust codebases and collaborative workflows using **`Git`** and GitHub.
+- **Containerization & OS:** Deploying isolated environments using **`Docker`** on **`Linux/Ubuntu`**.
+- **Version Control & CI/CD:** Managing robust codebases using **`Git`** and GitHub.
 - **Languages & Automation:** **`Python`** (primary), **`Rust`** (performance modules), **`SQL`** (database querying), and **`Bash`** (system-level automation).
 
 <br/>
@@ -52,13 +52,23 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 <br/>
 
+## 📚 Foundational Literature & Core Methodologies
+My technical approach and code architecture are deeply rooted in the practical methodologies outlined in these foundational texts:
+
+- 📖 **Practical Statistics for Data Scientists (O'Reilly):** Solidified my quantitative mindset, prioritizing hypothesis testing, data distributions, and statistical rigor over mere code execution.
+- 📖 **Data Science from Scratch (O'Reilly):** Taught me how to build core machine learning algorithms and math fundamentals from the ground up to truly understand their internal structural logic.
+- 📖 **Python for Data Analysis (O'Reilly):** Mastered advanced data wrangling, cleaning, and vectorization techniques using Pandas and NumPy directly from the library's creator.
+- 📖 **Python Data Science Handbook (O'Reilly):** Deepened my expertise in utilizing the core Python data stack for robust exploratory visualizations and algorithmic deployment.
+
+<br/>
+
 ## 🏆 Featured Portfolio (5 Core Projects)
 
 ### 📌 Project 1: Practical Statistical Inference & Advanced EDA
 - **Core Focus:** Statistical Foundations & Data Rigor.
-- **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases that skewed standard business analytical metrics.
-- **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA to extract verified statistical realities.
-- **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines for business intelligence.
+- **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases.
+- **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA.
+- **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines.
 - **Tech Stack:** `Python`, `Pandas`, `NumPy`, `SciPy`, `Matplotlib`, `Statistical Modeling`
 
 [👉 View Repository](Link_to_Project_1)
@@ -67,9 +77,9 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 ### 📌 Project 2: High-Performance Data Processing Engine in Rust
 - **Core Focus:** Memory Safety & Compute Optimization.
-- **The Problem:** A Python data pipeline suffered severe bottlenecks and high memory latency when processing massive multi-million-row financial and structural datasets.
-- **My Solution:** Developed a highly scalable data-wrangling and compute loop in **Rust**, linking it to Python wrappers to perform intensive calculations safely and concurrently.
-- **Business Value:** Reduced CPU and memory utilization significantly, accelerating data preparation speeds by orders of magnitude.
+- **The Problem:** A Python data pipeline suffered severe bottlenecks when processing massive datasets.
+- **My Solution:** Developed a scalable data-wrangling compute loop in **Rust**, linking it to Python wrappers.
+- **Business Value:** Reduced CPU and memory utilization significantly, accelerating data preparation speeds.
 - **Tech Stack:** `Rust`, `Python`, `Systems Programming`, `Data Optimization`, `Concurrency`
 
 [👉 View Repository](Link_to_Project_2)
@@ -78,31 +88,31 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 ### 📌 Project 3: Explainable AI (XAI) & Fair Predictive Modeling
 - **Core Focus:** Responsible AI, Model Transparency, & Ethics.
-- **The Problem:** Predictive machine learning models often act as "black boxes", leading to high compliance risks and a lack of executive stakeholder trust.
-- **My Solution:** Built a robust predictive model using `Scikit-Learn` and applied interpretation techniques to break down and map features, ensuring zero bias in predictions.
-- **Business Value:** Delivered a fully auditable model that meets modern compliance standards and builds trust with stakeholders by showing exactly *why* a prediction was made.
-- **Tech Stack:** `Python`, `Scikit-Learn`, `Explainable AI`, `AI Ethics`, `Model Interpretation`
+- **The Problem:** Predictive ML models acted as "black boxes", leading to high compliance risks.
+- **My Solution:** Built a robust model using `Scikit-Learn` and applied interpretation techniques to map features and ensure zero bias.
+- **Business Value:** Delivered a fully auditable model that meets modern compliance standards and builds trust.
+- **Tech Stack:** `Python`, `Scikit-Learn`, `Explainable AI`, `AI Ethics`
 
 [👉 View Repository](Link_to_Project_3)
 
 ---
 
-### 📌 Project 4: Production-Grade Algorithmic Machine Learning from Scratch
+### 📌 Project 4: Production-Grade ML Algorithms from Scratch
 - **Core Focus:** Algorithmic Engineering & First Principles.
-- **The Problem:** Relying blindly on standard third-party libraries can lead to fragile deployments when underlying mathematical logic is misunderstood.
-- **My Solution:** Built core linear algebra operations, gradient descent optimizations, and machine learning classifiers completely from first principles using pure Python structures.
-- **Business Value:** Demonstrated deep technical mastery, enabling the creation of bespoke, lightweight algorithms tailored specifically to non-standard production environments.
-- **Tech Stack:** `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`, `Optimization`
+- **The Problem:** Relying blindly on standard third-party libraries can lead to fragile deployments.
+- **My Solution:** Built linear algebra operations and ML classifiers completely from first principles using pure Python.
+- **Business Value:** Demonstrated deep technical mastery for non-standard production environments.
+- **Tech Stack:** `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`
 
 [👉 View Repository](Link_to_Project_4)
 
 ---
 
 ### 📌 Project 5: Containerized Relational ETL Pipeline & System Ops
-- **Core Focus:** Database Querying, Data Ops, & Production Deployment.
-- **The Problem:** Scattered transactional logs and multi-table relational data needed automated, repeatable structuring within a secure, OS-independent environment.
-- **My Solution:** Structured advanced `SQL` analytical workflows and built automated ETL pipelines. Containerized the entire architecture using **Docker** and deployed it on an **Ubuntu/Linux** environment to ensure cross-platform stability.
-- **Business Value:** Established a centralized, scalable, and fully automated pipeline that engineers can deploy instantly anywhere without dependency conflicts.
+- **Core Focus:** Database Querying, Data Ops, & Deployment.
+- **The Problem:** Scattered multi-table relational data needed automated structuring within an OS-independent environment.
+- **My Solution:** Structured advanced `SQL` workflows, built automated ETL pipelines, and containerized the architecture using **Docker** on **Ubuntu/Linux**.
+- **Business Value:** Established a centralized, scalable, and fully automated pipeline deployable anywhere.
 - **Tech Stack:** `SQL`, `Docker`, `Ubuntu/Linux`, `Bash`, `Python`, `Git`, `ETL Pipelines`
 
 [👉 View Repository](Link_to_Project_5)
