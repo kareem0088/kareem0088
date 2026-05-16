@@ -1,31 +1,25 @@
-<!-- HEADER SECTION -->
 <div align="center">
-  <h1>Hi, I'm KARIM MOHAMED! 👋</h1>
-  <h3>Junior Data Scientist | Specializing in Python & SQL | Based in Egypt 🇪🇬</h3>
-  <p>Leveraging statistical analysis and machine learning to build data-driven solutions.</p>
+  <h1>Hi, I'm Karim Mohamed! 👋</h1>
+  <h3>Junior Data Scientist | Strong Foundation in Statistics & Python</h3>
+  <p>Building data solutions from first principles and applying statistical rigor to analysis.</p>
 </div>
 
 <br/>
 
-<!-- ABOUT ME -->
 ## 👨‍💻 About Me
 
-- 🔭 **Focus:** Extracting actionable insights from messy datasets.
-- 🌱 **Learning:** Currently diving deeper into Advanced Machine Learning (Time Series Forecasting) and MLOps.
-- 💬 **Ask me about:** Python (Pandas/NumPy), SQL, and exploratory data analysis.
-- 👯 **Goal:** To contribute to impactful open-source data projects.
+- 🔭 **Focus:** Extracting actionable insights and building algorithms using core Python libraries from the ground up.
+- 🌱 **Learning:** Deepening my knowledge in Data Wrangling, Practical Statistics, and fundamental Machine Learning architectures.
+- 💬 **Ask me about:** Data structures in Python, statistical modeling (R/Python), and exploratory data analysis.
 
 <br/>
 
-<!-- MY DATA SCIENCE WORKFLOW (A TECHNICAL VISUAL) -->
-## 📊 How I Approach Data (My Workflow)
-
-Here is a visual representation of my standard technical approach to any data problem, built directly in GitHub Markdown.
+## 📊 My Core Approach to Data
 
 ```mermaid
-graph LR
-    A[Raw Data Source] -->|Extract/Load| B(Data Cleaning & Wrangling);
-    B --> C{Exploratory Data Analysis};
-    C -->|Insights Found| D[Visualization & Dashboarding];
-    C -->|Features Engineered| E(Machine Learning Model);
-    E --> F[Evaluation & deployment];
+graph TD
+    A[Raw Data] --> B(Main Skill: Data Wrangling)
+    B -->|Sub-Skills: Pandas & NumPy| C{Main Skill: Statistical Analysis & EDA}
+    C -->|Sub-Skill: Matplotlib Visuals| D[Insight Generation]
+    C -->|Main Skill: First Principles| E(Machine Learning Algorithms)
+    E -->|Sub-Skill: Scikit-Learn| F[Model Evaluation]
