@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Hi, I'm Karim Mohamed 🚀</h1>
   <h3>Junior Data Scientist | Quantitative Mindset & Responsible AI Advocate</h3>
-  <p><i>"Bridging the gap between complex mathematical theories and scalable business solutions."</i></p>
+  <p><i>"Bridging the gap between complex mathematical theories and scalable, production-ready business solutions."</i></p>
 </div>
 
 <br/>
@@ -10,7 +10,7 @@
 
 I bridge the gap between complex mathematical theories and scalable business solutions. My approach to data science is built on three pillars:
 - **Statistical Rigor & First Principles:** Grounded in the deep methodologies of foundational literature (O'Reilly's core Data Science stack), ensuring I understand *how* algorithms work, not just *how to call them*.
-- **High Performance:** Utilizing **Rust** alongside Python to build memory-safe, ultra-fast modules when standard processing isn't fast enough.
+- **High Performance & Production Readiness:** Utilizing **Rust** for ultra-fast processing, and packaging solutions within **Docker** on **Linux** environments to ensure seamless, scalable deployment from local machines to enterprise servers.
 - **Responsible & Transparent AI:** Deeply committed to **AI Ethics** and **Explainable AI (XAI)**. I build transparent models that stakeholders can trust, ensuring compliance, fairness, and unbiased decision-making.
 
 <br/>
@@ -27,10 +27,10 @@ I bridge the gap between complex mathematical theories and scalable business sol
 - **Explainable AI (XAI):** Utilizing techniques to interpret complex models (turning black boxes into transparent business logic).
 - **AI Ethics:** Designing systems with fairness, accountability, and privacy constraints in mind.
 
-### ⚙️ Programming Languages & Infrastructure
-- **Python:** My primary language for data manipulation, scripting, and model building.
-- **Rust:** For performance-critical components, memory safety, and high-speed data processing.
-- **SQL:** Extracting and joining complex relational data to feed analytical pipelines.
+### ⚙️ MLOps, Engineering & Deployment
+- **Containerization & OS:** Deploying isolated, scalable environments using **`Docker`** on **`Linux/Ubuntu`** servers.
+- **Version Control & CI/CD:** Managing robust codebases and collaborative workflows using **`Git`** and GitHub.
+- **Languages & Automation:** **`Python`** (primary), **`Rust`** (performance modules), **`SQL`** (database querying), and **`Bash`** (system-level automation).
 
 <br/>
 
@@ -38,18 +38,24 @@ I bridge the gap between complex mathematical theories and scalable business sol
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
+  <br/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
   <img src="https://img.shields.io/badge/Ethical_AI-005571?style=for-the-badge&logo=openai&logoColor=white" alt="Ethical AI"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </div>
 
 <br/>
 
-## 🏆 Featured Portfolio (5 Core Core Projects)
+## 🏆 Featured Portfolio (5 Core Projects)
 
 ### 📌 Project 1: Practical Statistical Inference & Advanced EDA
-- **Core Focus:** Statistical Foundations & Data Rigor (Inspired by *Practical Statistics for Data Scientists*).
+- **Core Focus:** Statistical Foundations & Data Rigor.
 - **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases that skewed standard business analytical metrics.
 - **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA to extract verified statistical realities.
 - **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines for business intelligence.
@@ -82,7 +88,7 @@ I bridge the gap between complex mathematical theories and scalable business sol
 ---
 
 ### 📌 Project 4: Production-Grade Algorithmic Machine Learning from Scratch
-- **Core Focus:** Algorithmic Engineering (Inspired by *Data Science from Scratch*).
+- **Core Focus:** Algorithmic Engineering & First Principles.
 - **The Problem:** Relying blindly on standard third-party libraries can lead to fragile deployments when underlying mathematical logic is misunderstood.
 - **My Solution:** Built core linear algebra operations, gradient descent optimizations, and machine learning classifiers completely from first principles using pure Python structures.
 - **Business Value:** Demonstrated deep technical mastery, enabling the creation of bespoke, lightweight algorithms tailored specifically to non-standard production environments.
@@ -92,12 +98,12 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 ---
 
-### 📌 Project 5: Enterprise Relational Data Pipelines & ETL Mechanics
-- **Core Focus:** Database Querying & Production Data Wrangling.
-- **The Problem:** Scattered transactional logs and multi-table relational data needed structure to allow for automated, repeatable downstream machine learning inference.
-- **My Solution:** Structured advanced `SQL` analytical workflows and built automated ETL pipelines to join, aggregate, and index messy cross-relational data securely.
-- **Business Value:** Established a centralized, scalable, and fully automated pipeline, reducing data ingestion and modeling preparation loops for the engineering team.
-- **Tech Stack:** `SQL`, `Python`, `Data Wrangling`, `ETL Pipelines`, `Relational Databases`
+### 📌 Project 5: Containerized Relational ETL Pipeline & System Ops
+- **Core Focus:** Database Querying, Data Ops, & Production Deployment.
+- **The Problem:** Scattered transactional logs and multi-table relational data needed automated, repeatable structuring within a secure, OS-independent environment.
+- **My Solution:** Structured advanced `SQL` analytical workflows and built automated ETL pipelines. Containerized the entire architecture using **Docker** and deployed it on an **Ubuntu/Linux** environment to ensure cross-platform stability.
+- **Business Value:** Established a centralized, scalable, and fully automated pipeline that engineers can deploy instantly anywhere without dependency conflicts.
+- **Tech Stack:** `SQL`, `Docker`, `Ubuntu/Linux`, `Bash`, `Python`, `Git`, `ETL Pipelines`
 
 [👉 View Repository](Link_to_Project_5)
 
