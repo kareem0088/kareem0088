@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Hi, I'm Karim Mohamed 🚀</h1>
   <h3>Junior Data Scientist | Quantitative Mindset & Responsible AI Advocate</h3>
-  <p><i>"Building robust, high-performance, and ethically sound data solutions from first principles."</i></p>
+  <p><i>"Bridging the gap between complex mathematical theories and scalable business solutions."</i></p>
 </div>
 
 <br/>
@@ -18,7 +18,6 @@ I bridge the gap between complex mathematical theories and scalable business sol
 ## 💼 Market-Ready Skill Matrix
 
 ### 🧠 Applied Statistics & Core Data Science
-*The foundation of my daily workflow, heavily inspired by "Practical Statistics for Data Scientists" & "Data Science from Scratch".*
 - **Mathematical Modeling:** Hypothesis testing, A/B testing, Bayesian probability, and statistical significance.
 - **Data Wrangling:** Advanced manipulation, cleaning, and transformation using **`Pandas`** and **`NumPy`**.
 - **Exploratory Data Analysis (EDA):** Crafting compelling statistical narratives and visualizations with **`Matplotlib`** and **`Seaborn`**.
@@ -47,34 +46,66 @@ I bridge the gap between complex mathematical theories and scalable business sol
 
 <br/>
 
-## 🏆 Proven Impact (Featured Work)
+## 🏆 Featured Portfolio (5 Core Core Projects)
 
-### 📈 [Project 1: Transparent Predictive Modeling]
-- **The Problem:** The business needed a forecasting model, but stakeholders lacked trust in "black-box" AI decisions.
-- **My Solution:** Built a predictive pipeline from scratch, integrating statistical validation and Explainable AI (XAI) techniques to map exactly how each feature influenced the output.
-- **Tech Stack:** `Python`, `Scikit-Learn`, `Pandas`, `Statistical EDA`
+### 📌 Project 1: Practical Statistical Inference & Advanced EDA
+- **Core Focus:** Statistical Foundations & Data Rigor (Inspired by *Practical Statistics for Data Scientists*).
+- **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases that skewed standard business analytical metrics.
+- **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA to extract verified statistical realities.
+- **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines for business intelligence.
+- **Tech Stack:** `Python`, `Pandas`, `NumPy`, `SciPy`, `Matplotlib`, `Statistical Modeling`
 
-[👉 View Project Repository](Link)
+[👉 View Repository](Link_to_Project_1)
 
-### ⚙️ [Project 2: High-Performance Data Processing Engine]
-- **The Problem:** A Python-based data cleaning script was bottlenecking due to massive raw data volume.
-- **My Solution:** Rewrote the core processing loop using **Rust**, seamlessly integrating it with the existing Python workflow, significantly reducing execution time.
-- **Tech Stack:** `Rust`, `Python Integration`, `Data Wrangling`
+---
 
-[👉 View Project Repository](Link)
+### 📌 Project 2: High-Performance Data Processing Engine in Rust
+- **Core Focus:** Memory Safety & Compute Optimization.
+- **The Problem:** A Python data pipeline suffered severe bottlenecks and high memory latency when processing massive multi-million-row financial and structural datasets.
+- **My Solution:** Developed a highly scalable data-wrangling and compute loop in **Rust**, linking it to Python wrappers to perform intensive calculations safely and concurrently.
+- **Business Value:** Reduced CPU and memory utilization significantly, accelerating data preparation speeds by orders of magnitude.
+- **Tech Stack:** `Rust`, `Python`, `Systems Programming`, `Data Optimization`, `Concurrency`
 
-<br/>
+[👉 View Repository](Link_to_Project_2)
 
-## 📈 Dynamic Activity Stats
+---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" alt="GitHub Streak" width="48%"/>
-</div>
+### 📌 Project 3: Explainable AI (XAI) & Fair Predictive Modeling
+- **Core Focus:** Responsible AI, Model Transparency, & Ethics.
+- **The Problem:** Predictive machine learning models often act as "black boxes", leading to high compliance risks and a lack of executive stakeholder trust.
+- **My Solution:** Built a robust predictive model using `Scikit-Learn` and applied interpretation techniques to break down and map features, ensuring zero bias in predictions.
+- **Business Value:** Delivered a fully auditable model that meets modern compliance standards and builds trust with stakeholders by showing exactly *why* a prediction was made.
+- **Tech Stack:** `Python`, `Scikit-Learn`, `Explainable AI`, `AI Ethics`, `Model Interpretation`
+
+[👉 View Repository](Link_to_Project_3)
+
+---
+
+### 📌 Project 4: Production-Grade Algorithmic Machine Learning from Scratch
+- **Core Focus:** Algorithmic Engineering (Inspired by *Data Science from Scratch*).
+- **The Problem:** Relying blindly on standard third-party libraries can lead to fragile deployments when underlying mathematical logic is misunderstood.
+- **My Solution:** Built core linear algebra operations, gradient descent optimizations, and machine learning classifiers completely from first principles using pure Python structures.
+- **Business Value:** Demonstrated deep technical mastery, enabling the creation of bespoke, lightweight algorithms tailored specifically to non-standard production environments.
+- **Tech Stack:** `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`, `Optimization`
+
+[👉 View Repository](Link_to_Project_4)
+
+---
+
+### 📌 Project 5: Enterprise Relational Data Pipelines & ETL Mechanics
+- **Core Focus:** Database Querying & Production Data Wrangling.
+- **The Problem:** Scattered transactional logs and multi-table relational data needed structure to allow for automated, repeatable downstream machine learning inference.
+- **My Solution:** Structured advanced `SQL` analytical workflows and built automated ETL pipelines to join, aggregate, and index messy cross-relational data securely.
+- **Business Value:** Established a centralized, scalable, and fully automated pipeline, reducing data ingestion and modeling preparation loops for the engineering team.
+- **Tech Stack:** `SQL`, `Python`, `Data Wrangling`, `ETL Pipelines`, `Relational Databases`
+
+[👉 View Repository](Link_to_Project_5)
 
 <br/>
 
 ## 🤝 Let's Build Something Great
+
+I am actively looking for Junior Data Scientist roles where I can contribute to meaningful projects and drive real business value.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/karim-mohamed-650k/" target="_blank">
