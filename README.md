@@ -1,6 +1,6 @@
 <!-- HEADER SECTION -->
 <div align="center">
-  <h1>Hi, I'm [Your Name]! 👋</h1>
+  <h1>Hi, I'm KARIM MOHAMED! 👋</h1>
   <h3>Junior Data Scientist | Specializing in Python & SQL | Based in Egypt 🇪🇬</h3>
   <p>Leveraging statistical analysis and machine learning to build data-driven solutions.</p>
 </div>
