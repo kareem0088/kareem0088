@@ -68,7 +68,7 @@ My technical approach and code architecture are deeply rooted in the practical m
 
 <br/>
 
-### 📌 Project 2: Algorithmic Price Smoothing via Kalman Filtering
+### 📌 Project 1: Algorithmic Price Smoothing via Kalman Filtering
 - **Core Focus:** Stochastic Signal Processing & Quantitative Finance.
 - **The Problem:** Raw high-frequency market data contained heavy microstructure noise and fake liquidity spikes, while traditional trend indicators (SMA/EMA) introduced fatal latency (lag).
 - **My Solution:** Developed a low-latency state-space processing pipeline from scratch using a 1D Kalman Filter paired with dynamic Z-score outlier rejection to isolate the true asset trend.
