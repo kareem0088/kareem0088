@@ -68,60 +68,17 @@ My technical approach and code architecture are deeply rooted in the practical m
 
 <br/>
 
-## 🏆 Featured Portfolio (5 Core Projects)
+### 📌 Project 2: Algorithmic Price Smoothing via Kalman Filtering
+- **Core Focus:** Stochastic Signal Processing & Quantitative Finance.
+- **The Problem:** Raw high-frequency market data contained heavy microstructure noise and fake liquidity spikes, while traditional trend indicators (SMA/EMA) introduced fatal latency (lag).
+- **My Solution:** Developed a low-latency state-space processing pipeline from scratch using a 1D Kalman Filter paired with dynamic Z-score outlier rejection to isolate the true asset trend.
+- **Business Value:** Eradicated indicator phase shift and whipsaw effects, providing high-fidelity, stationary input features optimized for algorithmic trading systems and sequential neural networks.
+- **Tech Stack:** `Python`, `NumPy`, `Pandas`, `Matplotlib`, `Stochastic Filtering`, `State-Space Modeling`
 
-### 📌 Project 1: Practical Statistical Inference & Advanced EDA
-- **Core Focus:** Statistical Foundations & Data Rigor.
-- **The Problem:** Raw enterprise data contained heavy noise, outliers, and selection biases.
-- **My Solution:** Conducted rigorous hypothesis testing, checked distribution assumptions, and performed advanced imputation and multi-variable EDA.
-- **Business Value:** Prevented costly analytical errors by eliminating statistical anomalies, providing clean data pipelines.
-- **Tech Stack:** `Python`, `Pandas`, `NumPy`, `SciPy`, `Statistical Modeling`
-
-[👉 View Repository](Link_to_Project_1)
+[👉 View Repository](https://github.com/kareem0088/Algorithmic-Price-Smoothing-via-Kalman-Filtering)
 
 ---
 
-### 📌 Project 2: Cloud-Scaled Machine Learning on Databricks
-- **Core Focus:** Big Data, Distributed Computing, & Cloud ML.
-- **The Problem:** A local predictive model could not handle the processing requirements of a rapidly growing 50GB+ dataset.
-- **My Solution:** Migrated the data pipeline to **Databricks**, utilizing `PySpark` for distributed data wrangling and scaling the machine learning training process across a cloud cluster.
-- **Business Value:** Reduced model training time from hours to minutes, enabling the business to update predictions dynamically on massive datasets.
-- **Tech Stack:** `Databricks`, `PySpark`, `Cloud Computing`, `Machine Learning`
-
-[👉 View Repository](Link_to_Project_2)
-
----
-
-### 📌 Project 3: Explainable AI (XAI) & Fair Predictive Modeling
-- **Core Focus:** Responsible AI, Model Transparency, & Ethics.
-- **The Problem:** Predictive ML models acted as "black boxes", leading to high compliance risks.
-- **My Solution:** Built a robust model using `Scikit-Learn` and applied interpretation techniques to map features and ensure zero bias.
-- **Business Value:** Delivered a fully auditable model that meets modern compliance standards and builds trust.
-- **Tech Stack:** `Python`, `Scikit-Learn`, `Explainable AI`, `AI Ethics`
-
-[👉 View Repository](Link_to_Project_3)
-
----
-
-### 📌 Project 4: High-Performance Data Engine & ML from Scratch
-- **Core Focus:** Memory Safety, Algorithmic Engineering & First Principles.
-- **The Problem:** Relying blindly on standard third-party libraries led to bottlenecks in a non-standard production environment.
-- **My Solution:** Built core ML classifiers completely from first principles using pure Python, and optimized the heaviest data-loop utilizing **Rust** for maximum memory safety and speed.
-- **Business Value:** Demonstrated deep technical mastery, creating bespoke, ultra-fast algorithms tailored specifically to constrained environments.
-- **Tech Stack:** `Rust`, `Pure Python`, `Mathematical Mechanics`, `Algorithmic Logic`
-
-[👉 View Repository](Link_to_Project_4)
-
----
-
-### 📌 Project 5: Containerized Relational ETL Pipeline & System Ops
-- **Core Focus:** Database Querying, Data Ops, & Deployment.
-- **The Problem:** Scattered multi-table relational data needed automated structuring within an OS-independent environment.
-- **My Solution:** Structured advanced `SQL` workflows, built automated ETL pipelines, and containerized the architecture using **Docker** on **Ubuntu/Linux**.
-- **Business Value:** Established a centralized, scalable, and fully automated pipeline deployable anywhere.
-- **Tech Stack:** `SQL`, `Docker`, `Ubuntu/Linux`, `Bash`, `Git`, `ETL Pipelines`
-
-[👉 View Repository](Link_to_Project_5)
 
 <br/>
 
