@@ -21,34 +21,27 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 | Area | Tools & Technologies |
 | :--- | :--- |
 | **Programming & Scripting** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> |
+| **Operating Systems** | 🐧 Linux · Ubuntu (user & development environment) |
+| **Cloud Platforms** | ☁️ Google Cloud Platform (GCP) |
+| **Big Data & Analytics** | ⚡ Databricks · Apache Spark |
+| **Containers & Deployment** | 🐳 Docker |
 | **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` |
 | **Machine Learning** | <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/XGBoost-F37626?style=for-the-badge&logo=xgboost&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> |
 | **Quantitative Methods** | `Statistical Inference` · `Hypothesis Testing` · `Volatility Modeling` · `Backtesting` · `Risk Metrics (Sharpe, Drawdown)` |
 | **Feature Engineering** | `Technical Indicators` · `Rolling Statistics` · `Lag Features` · `Market Microstructure Features` |
-| **MLOps & Infrastructure** | `MLflow` · `Docker` · `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
+| **MLOps & Infrastructure** | `MLflow` · `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
 | **Explainable AI (XAI)** | `SHAP` · `Feature Importance` · `Model interpretability` · `Signal explainability` |
 
 <br/>
 
 ## 🔍 What I Do
 
-- **Market Signal Modeling** — Extracting meaningful signals from noisy financial time-series data.
-- **Quantitative Feature Engineering** — Designing statistically valid features for predictive models.
-- **Kalman Filtering Systems** — Building adaptive smoothing models for latent price estimation.
-- **Backtesting & Validation** — Testing strategies under realistic market conditions.
-- **Risk-Aware Modeling** — Evaluating models using financial metrics, not just ML accuracy.
-- **Production ML Systems** — Deploying scalable pipelines for financial prediction systems.
-
-<br/>
-
-## 📊 Core Focus Areas
-
-- Financial Time Series Modeling  
-- Market Noise Reduction  
-- Signal Classification (Good / Medium / Bad signals)  
-- Non-stationary Data Modeling  
-- Probabilistic State-Space Models  
-- Algorithmic Trading Research Systems  
+- Market Signal Modeling — extracting meaningful signals from noisy financial time-series data  
+- Quantitative Feature Engineering — designing statistically valid features  
+- Kalman Filtering Systems — adaptive smoothing for latent price estimation  
+- Backtesting & Validation — testing strategies under realistic market conditions  
+- Risk-Aware Modeling — evaluating models using financial metrics (Sharpe, drawdown, etc.)  
+- Production ML Systems — building scalable pipelines for financial prediction systems  
 
 <br/>
 
@@ -57,33 +50,21 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 ### 🔹 Algorithmic Price Smoothing System
 *[Kalman Filter · Time Series · Signal Classification]*
 
-Built a financial ML system that applies Kalman filtering to reduce market noise and extract latent price trends from high-frequency time-series data. Includes feature engineering, signal classification, and evaluation pipeline.
-
-<br/>
-
-`Python` · `Kalman Filter` · `Pandas` · `Scikit-Learn`
+Built a financial ML system using Kalman filtering to reduce market noise and extract latent price trends from time-series data.
 
 ---
 
 ### 🔹 Financial Signal Classification Engine
 *[XGBoost · Feature Engineering · Market Data]*
 
-Developed a model to classify trading signals into good, medium, and bad categories using engineered market features and statistical indicators.
-
-<br/>
-
-`XGBoost` · `NumPy` · `Feature Engineering`
+Classifies trading signals into good / medium / bad using engineered market features.
 
 ---
 
 ### 🔹 Quant ML Pipeline (End-to-End)
-*[MLflow · Docker · Backtesting]*
+*[MLflow · Docker · GCP]*
 
-Designed a reproducible ML pipeline for financial data including experiment tracking, model validation, and deployment-ready architecture.
-
-<br/>
-
-`MLflow` · `Docker` · `Python`
+End-to-end ML pipeline with experiment tracking, containerization, and cloud-ready deployment.
 
 ---
 
