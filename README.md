@@ -27,6 +27,7 @@ I’m actively seeking opportunities in MLOps, ML infrastructure, or machine lea
 | **Cloud & Big Data** | <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/> <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="Apache Spark"/> <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/> |
 | **Machine Learning** | <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/> <img src="https://img.shields.io/badge/XGBoost-F37626?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/> |
 | **Statistics & Analysis** | `hypothesis testing` · `regression analysis` · `classification` · `A/B testing` · `statistical inference` · `data validation` · `model evaluation` |
+| **Hyperparameter Optimization** | `Grid Search` · `Random Search` · `Bayesian Optimization` · `Optuna` · `cross-validation` · `experiment tuning` |
 | **XAI & Model Interpretability** | `SHAP` · `LIME` · `feature importance analysis` · `model explainability` · `bias analysis` |
 | **Monitoring & Deployment** | `CI/CD pipelines` · `experiment tracking` · `model versioning` · `model monitoring` · `containerized deployment` · `pipeline orchestration` |
 
@@ -39,6 +40,7 @@ I’m actively seeking opportunities in MLOps, ML infrastructure, or machine lea
 - **Automation & reliability** — I enjoy automating ML workflows, improving reproducibility, and reducing operational overhead.
 - **Scalable infrastructure awareness** — Comfortable working with cloud platforms, distributed systems, and containerized environments.
 - **Explainable AI awareness** — I apply interpretability and model analysis tools to improve transparency and trust in ML systems.
+- **Optimization-focused workflow** — I use structured hyperparameter tuning and experiment tracking to improve model performance systematically.
 - **Engineering discipline** — I value maintainable code, version control, documentation, and reproducible experimentation.
 
 <br/>
@@ -48,7 +50,7 @@ I’m actively seeking opportunities in MLOps, ML infrastructure, or machine lea
 ### 🔹 End-to-End ML Pipeline
 *[MLflow · Docker · CI/CD · GCP]*
 
-Built a reproducible machine learning pipeline including automated training, experiment tracking, containerized deployment, and version-controlled workflows.
+Built a reproducible machine learning pipeline including automated training, experiment tracking, hyperparameter optimization, containerized deployment, and version-controlled workflows.
 
 <br/>
 
