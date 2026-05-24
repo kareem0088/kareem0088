@@ -21,12 +21,12 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 | Area | Tools & Technologies |
 | :--- | :--- |
 | **Programming & Scripting** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> |
-| **Operating Systems** | 🐧 Linux · Ubuntu (user & development environment) |
-| **Cloud Platforms** | ☁️ Google Cloud Platform (GCP) |
-| **Big Data & Analytics** | ⚡ Databricks · Apache Spark |
-| **Containers & Deployment** | 🐳 Docker |
-| **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` |
+| **Operating Systems** | <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/> |
+| **Cloud Platforms** | <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/> |
+| **Big Data & Analytics** | <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white"/> |
+| **Containers & Deployment** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> |
 | **Machine Learning** | <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/XGBoost-F37626?style=for-the-badge&logo=xgboost&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> |
+| **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` |
 | **Quantitative Methods** | `Statistical Inference` · `Hypothesis Testing` · `Volatility Modeling` · `Backtesting` · `Risk Metrics (Sharpe, Drawdown)` |
 | **Feature Engineering** | `Technical Indicators` · `Rolling Statistics` · `Lag Features` · `Market Microstructure Features` |
 | **MLOps & Infrastructure** | `MLflow` · `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
@@ -93,6 +93,6 @@ I’m open to opportunities in quantitative machine learning, financial ML engin
   </a>
 
   <a href="https://www.kaggle.com/karimmohamed01">
-    <img src="https://img.shields.io/badge/Kaggle-Projects-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"/>
+    <img src="https://img.shields.io-badge/Kaggle-Projects-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   </a>
 </div>
