@@ -47,12 +47,12 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 
 ## 📂 Featured Projects
 
-### 🔹 Tanzania-Tourism-Classification
-*[End-to-End MLOps · Multi-Class Classification · SHAP (XAI) · MLflow · Apache Kafka]*
+### 🔹 [Tanzania-Tourism-Classification — End-to-End ML System](https://github.com/kareem0088/tanzania-tourism-classification)
+*Python · Scikit-Learn · LightGBM/XGBoost · MLflow · SHAP (XAI) · Apache Kafka*
+- **Modular Architecture (`src/`):** Built a production-ready Python package separating centralized configurations (`config.py`), stateful data cleaning (`preprocessing.py`), domain-driven feature engineering (`features.py`), and inference (`predict.py`).
+- **Modeling, Tracking & XAI:** Implemented Stratified K-Fold cross-validation logged to MLflow Registry (`train.py`, `evaluate.py`), integrating SHAP values to interpret feature contributions across 6 tourist expenditure classes.
+- **Real-Time Streaming Pipeline:** Developed an asynchronous Apache Kafka producer (`kafka_producer.py`) to simulate and stream live tourist feature payloads for real-time model evaluation.
 
-Engineered a modular end-to-end ML system to classify tourist expenditure tiers in Tanzania, featuring automated feature engineering, MLflow experiment tracking, SHAP explainability, and real-time data streaming via Apache Kafka.
-
----
 ---
 
 ## 📈 GitHub Stats
