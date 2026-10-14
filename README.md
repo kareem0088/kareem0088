@@ -47,25 +47,12 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 
 ## 📂 Featured Projects
 
-### 🔹 Algorithmic Price Smoothing System
-*[Kalman Filter · Time Series · Signal Classification]*
+### 🔹 Tanzania-Tourism-Classification
+*[End-to-End MLOps · Multi-Class Classification · SHAP (XAI) · MLflow · Apache Kafka]*
 
-Built a financial ML system using Kalman filtering to reduce market noise and extract latent price trends from time-series data.
-
----
-
-### 🔹 Financial Signal Classification Engine
-*[XGBoost · Feature Engineering · Market Data]*
-
-Classifies trading signals into good / medium / bad using engineered market features.
+Engineered a modular end-to-end ML system to classify tourist expenditure tiers in Tanzania, featuring automated feature engineering, MLflow experiment tracking, SHAP explainability, and real-time data streaming via Apache Kafka.
 
 ---
-
-### 🔹 Quant ML Pipeline (End-to-End)
-*[MLflow · Docker · GCP]*
-
-End-to-end ML pipeline with experiment tracking, containerization, and cloud-ready deployment.
-
 ---
 
 ## 📈 GitHub Stats
