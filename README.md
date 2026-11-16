@@ -20,7 +20,8 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 
 | Area | Tools & Technologies |
 | :--- | :--- |
-| **Programming & Scripting** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> |
+| **Programming & Scripting** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white"/> |
+| **Data Engineering & Storage** | <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white"/> <img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white"/> `Zstd Compression` |
 | **Operating Systems** | <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/> |
 | **Cloud Platforms** | <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/> |
 | **Big Data & Analytics** | <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white"/> |
@@ -29,8 +30,9 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 | **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` |
 | **Quantitative Methods** | `Statistical Inference` · `Hypothesis Testing` · `Volatility Modeling` · `Backtesting` · `Risk Metrics (Sharpe, Drawdown)` |
 | **Feature Engineering** | `Technical Indicators` · `Rolling Statistics` · `Lag Features` · `Market Microstructure Features` |
-| **MLOps & Infrastructure** | `MLflow` · `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
+| **MLOps & Infrastructure** | <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/> `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
 | **Explainable AI (XAI)** | `SHAP` · `Feature Importance` · `Model interpretability` · `Signal explainability` |
+| **Streaming & Messaging** | `Apache Kafka` · `Async Producers` · `Real-Time Inference` |
 
 <br/>
 
@@ -41,6 +43,12 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 - Kalman Filtering Systems — adaptive smoothing for latent price estimation  
 - Backtesting & Validation — testing strategies under realistic market conditions  
 - Risk-Aware Modeling — evaluating models using financial metrics (Sharpe, drawdown, etc.)  
+- Multi-Class Classification — gradient-boosted models (LightGBM, XGBoost) with Stratified K-Fold cross-validation for robust, imbalance-aware evaluation  
+- Modular ML Engineering — production-ready Python packages separating configuration, stateful preprocessing, domain-driven feature engineering, training, evaluation, and inference  
+- Experiment Tracking & Model Registry — logging runs, metrics, and versioned models with MLflow for reproducibility  
+- Explainable AI — using SHAP to interpret feature contributions and make model decisions transparent  
+- Real-Time Streaming — asynchronous Apache Kafka producers to stream live feature payloads for real-time model evaluation  
+- High-Performance Data Pipelines — fast analytical processing with Polars and DuckDB over Zstd-compressed Parquet storage  
 - Production ML Systems — building scalable pipelines for financial prediction systems  
 
 <br/>
@@ -80,6 +88,6 @@ I’m open to opportunities in quantitative machine learning, financial ML engin
   </a>
 
   <a href="https://www.kaggle.com/karimmohamed01">
-    <img src="https://img.shields.io-badge/Kaggle-Projects-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Kaggle-Projects-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   </a>
 </div>
