@@ -27,7 +27,7 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 | **Big Data & Analytics** | <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white"/> |
 | **Containers & Deployment** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> |
 | **Machine Learning** | <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/XGBoost-F37626?style=for-the-badge&logo=xgboost&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> |
-| **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` |
+| **Financial ML & Modeling** | `Time Series Analysis` · `Kalman Filtering` · `Statistical Modeling` · `Signal Processing` · `Regression Models` · `Classification Models` · `Deep Reinforcement Learning` |
 | **Quantitative Methods** | `Statistical Inference` · `Hypothesis Testing` · `Volatility Modeling` · `Backtesting` · `Risk Metrics (Sharpe, Drawdown)` |
 | **Feature Engineering** | `Technical Indicators` · `Rolling Statistics` · `Lag Features` · `Market Microstructure Features` |
 | **MLOps & Infrastructure** | <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/> `CI/CD pipelines` · `Model versioning` · `Experiment tracking` |
@@ -55,11 +55,18 @@ I approach financial ML with a strong emphasis on realism: avoiding overfitting,
 
 ## 📂 Featured Projects
 
-### 🔹 [Tanzania-Tourism-Classification — End-to-End ML System](https://github.com/kareem0088/tanzania-tourism-classification)
-*Python · Scikit-Learn · LightGBM/XGBoost · MLflow · SHAP (XAI) · Apache Kafka*
-- **Modular Architecture (`src/`):** Built a production-ready Python package separating centralized configurations (`config.py`), stateful data cleaning (`preprocessing.py`), domain-driven feature engineering (`features.py`), and inference (`predict.py`).
-- **Modeling, Tracking & XAI:** Implemented Stratified K-Fold cross-validation logged to MLflow Registry (`train.py`, `evaluate.py`), integrating SHAP values to interpret feature contributions across 6 tourist expenditure classes.
-- **Real-Time Streaming Pipeline:** Developed an asynchronous Apache Kafka producer (`kafka_producer.py`) to simulate and stream live tourist feature payloads for real-time model evaluation.
+### 🔹 [Tanzania-Tourism-Classification — End-to-End ML Pipeline](https://github.com/kareem0088/tanzania-tourism-classification)
+*Python · Pandas · XGBoost · MLflow · Parquet · SQLite — SHAP & Apache Kafka (in planning)*
+- **Problem:** 6-class, imbalanced classification of tourist expenditure (18.5K training rows) from the Zindi Tanzania Tourism challenge, with extreme outliers in group size and length of stay.
+- **Modular Architecture (`src/`):** Python package separating centralized configuration (`config.py`), validated data cleaning (`preprocessing.py`), domain-driven feature engineering (`features/builder.py`, e.g. continent, night ratios, adults per night) and leakage-safe encoding applied after the split (`features/encoding.py`).
+- **Modeling & Tracking:** XGBoost baseline with class-balanced weights and stratified 6-fold cross-validation (≈44.4% accuracy, 0.40 macro F1), with experiments tracked in MLflow on a SQLite backend.
+- **🚧 In progress:** MLflow model registry and generative synthetic data (Copula / CTGAN) for class balancing. **In planning:** SHAP explainability and an asynchronous Apache Kafka streaming producer.
+
+### 🔹 [Maat — Quantitative Trading with Deep Reinforcement Learning](https://github.com/kareem0088/maat_quantitative_trading_drl)
+*Python · Deep Reinforcement Learning · Kalman Filtering · Quantitative Trading* — 🚧 *early stage*
+- **Goal:** Design and train a deep reinforcement learning agent that learns trading policies from market data, instead of hand-coding signal rules.
+- **Kalman Filter Toolkit (in planning):** Use Kalman filtering to estimate the latent price and build an adaptive Kalman channel, plus supporting tools (smoothed trend, dynamic bands, noise-aware signals) that give the agent cleaner, more robust inputs.
+- **Evaluation focus:** Realistic backtesting and risk-aware metrics (Sharpe ratio, drawdown), with attention to overfitting and non-stationarity across market regimes.
 
 ---
 
